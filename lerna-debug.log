@@ -1,19 +1,19 @@
 0 silly argv {
-0 silly argv   _: [ 'create' ],
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
 0 silly argv   lernaVersion: '4.0.0',
-0 silly argv   '$0': '/usr/local/bin/lerna',
-0 silly argv   name: 'utils'
+0 silly argv   '$0': '/usr/local/bin/lerna'
 0 silly argv }
 1 notice cli v4.0.0
 2 verbose rootPath /Users/ethan.duan/Desktop/projects/dby-cli
-3 warn ENOREMOTE No git remote found, skipping repository property
-4 error Error: canceled
-4 error     at Interface.<anonymous> (/usr/local/lib/node_modules/lerna/node_modules/read/lib/read.js:66:13)
-4 error     at Interface.emit (node:events:520:28)
-4 error     at Interface._ttyWrite (node:readline:1081:16)
-4 error     at ReadStream.onkeypress (node:readline:288:10)
-4 error     at ReadStream.emit (node:events:520:28)
-4 error     at emitKeys (node:internal/readline/utils:358:14)
-4 error     at emitKeys.next (<anonymous>)
-4 error     at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
-4 error     at ReadStream.emit (node:events:520:28)
+3 error JSONError: Unexpected token "}" (0x7D) in JSON at position 526 while parsing near "...08ab3aa22af69b41d\",\n}\n" in packages/utils/package.json
+3 error
+3 error [0m [90m 22 |[39m   }[33m,[39m[0m
+3 error [0m [90m 23 |[39m   [32m"gitHead"[39m[33m:[39m [32m"05afb0f08f0e8206130ab7f08ab3aa22af69b41d"[39m[33m,[39m[0m
+3 error [0m[31m[1m>[22m[39m[90m 24 |[39m }[0m
+3 error [0m [90m    |[39m [31m[1m^[22m[39m[0m
+3 error [0m [90m 25 |[39m[0m
+3 error
+3 error     at parseJson (/Users/ethan.duan/Desktop/projects/dby-cli/node_modules/parse-json/index.js:29:21)
+3 error     at parse (/Users/ethan.duan/Desktop/projects/dby-cli/node_modules/load-json-file/index.js:15:9)
+3 error     at module.exports (/Users/ethan.duan/Desktop/projects/dby-cli/node_modules/load-json-file/index.js:18:47)
