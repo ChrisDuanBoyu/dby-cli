@@ -2,12 +2,10 @@
   "packages": [
     "packages/*"
   ],
-  "version": "1.0.2",
-  "command":{
-    "publish":{
-      
-        "access": "public"
-    
+  "version": "1.0.3",
+  "command": {
+    "publish": {
+      "access": "public"
     }
   }
 }
