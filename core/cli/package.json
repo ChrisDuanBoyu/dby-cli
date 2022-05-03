@@ -1,0 +1,37 @@
+{
+  "name": "@dby-cli/core",
+  "version": "1.0.4",
+  "description": "> TODO: description",
+  "author": "Boyu <ethan.duan@shopee.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "bin": {
+    "dby-cli": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "gitHead": "05afb0f08f0e8206130ab7f08ab3aa22af69b41d",
+  "dependencies": {
+    "@dby-cli/log": "^1.0.4",
+    "@dby-cli/utils": "^1.0.4",
+    "colors": "^1.4.0",
+    "import-local": "^3.1.0",
+    "path-exists":"4.0.0",
+    "root-check": "1.0.0",
+    "semver": "^7.3.7",
+    "user-home": "^3.0.0"
+  }
+}

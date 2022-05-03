@@ -1,11 +1,11 @@
 {
-  "name": "@dby-cli/core",
+  "name": "@dby-cli/log",
   "version": "1.0.4",
   "description": "> TODO: description",
   "author": "Boyu <ethan.duan@shopee.com>",
-  "homepage": "",
+  "homepage": "https://github.com/ChrisDuanBoyu/dby-cli#readme",
   "license": "ISC",
-  "main": "lib/core.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -14,11 +14,19 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org",
     "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisDuanBoyu/dby-cli.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "05afb0f08f0e8206130ab7f08ab3aa22af69b41d"
+  "bugs": {
+    "url": "https://github.com/ChrisDuanBoyu/dby-cli/issues"
+  },
+  "dependencies": {
+    "npmlog": "^6.0.2"
+  }
 }
